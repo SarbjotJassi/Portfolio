@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee' Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            background: #111;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .hero {
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center/cover;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        .hero button {
+            margin: 15px;
+            padding: 10px 10px;
+            border-radius: 15px;
+            background: #c59d5f;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #90631f;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Brew'Coffee</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Start Your Day With Perfect Coffee</h1>
+            <p>Freshly brewed coffee made with preimum beans.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+    <section class="features">
+        <div class="card">Premium Beans</div>
+        <div class="card">Freshly Roasted</div>
+        <div class="card">Fasy Delivery</div>
+    </section>
+    <footer>
+        <p>© 2026 BrewCoffee. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
